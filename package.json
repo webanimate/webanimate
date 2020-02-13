@@ -1,6 +1,6 @@
 {
   "name": "webanimate",
-  "version": "0.0.0-alpha.0",
+  "version": "0.0.0-alpha.1",
   "description": "Use Web Animations API easier",
   "main": "src/index.js",
   "author": "Web Animate",
