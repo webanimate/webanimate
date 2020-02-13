@@ -18,7 +18,7 @@ export default {
     commonjs({
       namedExports: {
         'node_modules/underscore/underscore.js': [
-          'isObject',
+          'isObject', //
           'isString',
           'isArray'
         ]
@@ -28,5 +28,6 @@ export default {
       output: {
         preamble: `//${pkg.name} v${pkg.version} ${pkg.homepage}`
       }
-    })]
+    })
+  ]
 }

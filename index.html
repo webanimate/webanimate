@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Webanimate</title>
     <script src="dist/webanimate.js"></script>
-</head>
-<body>
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAIAAADsXkQEAAAABnRSTlMAAAAAAABupgeRAAAACXBIWXMAABJ0AAASdAHeZh94AAACl0lEQVRYw+1YvWobQRAe7wkZETAqrjAnCMZPoOpewi/hWg/kWi+RPMQW4Z7AqLkjIQcRKqzEYJJi7GEyf7cSuPMWZm9mdr7535UBPpax2rY19zFXS5orxcDrhytUJPYxl/axNZWQ6PseN6vVav1wBQDXd5dVV+P++5c/SCcKcnGjJUkbHsFPWhfCy25zAAA8b65ucxBcTeEs1NZtDjlnwb3QQX6PukEjBPx/Me/7vurq67tL8/xtXf16+nseNmWEhz0V+n1bVyUY+zyKDXdd+J084ADMYwk8De/2WM4Zs+JhPI4vkwFYtjVCLtv6hP4WLYhICHaqESa8bvqZl2lUjX+bRQMAUA/cJm4c7gkMvRfY+zwCzA2/ecC5Q6+ob/tm0RCXG8cBvGhregqqCYGbRTMch+E4xHUgAE7Lt6kLAIbjIChcTLCEWXFhzgIe95V/mqacMRLce4wDUDU9ji+CLjCEWfxTt3uKgflhz12v5YR8aa2hjYGvpJ27TpPAjPY+jzf3z7zFk4Y0ZyGpIzw9A3hDCpnpfMcdYtYw9aGmC/iimKOQ8D5IPA4APn+4KTxlAj55N48206s13oq0F/1plnry2GaeeILRFJo8NPtoo211/c4577bzOM1xm+l5x8+W9jfVs1muovt5C3gdb/bOzAuLvj3NkJiR4HPwtNlCNiKwlzxB/Pb1hwi4Bp6oNa6XV03JW9F7oHn0FFzy2JraCVMXndJPVdNpt8e43D6P3stX0EVG6d1IArvtnD+T0+QbWzhkGset1PJezOVvopv755In8BlLOG38Jvr08/Ny7T5LfvdP2poSogaWfhd6v9vOYwES40Oz6L2WcwZ4veEFBqojAc7V89jEm/A7+H+BUMe5k0gf6239A8lPFBur9Z6xAAAAAElFTkSuQmCC" id="logo" style="height: auto; width: 20%;">
-<script>
-  const w = webanimate('#logo', 'jello', { duration: 1000, iterations: 2, direction: 'alternate', play: true, all: false })
-  console.log(w)
-</script>
-</body>
+  </head>
+  <body>
+    <img
+      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAIAAADsXkQEAAAABnRSTlMAAAAAAABupgeRAAAACXBIWXMAABJ0AAASdAHeZh94AAACl0lEQVRYw+1YvWobQRAe7wkZETAqrjAnCMZPoOpewi/hWg/kWi+RPMQW4Z7AqLkjIQcRKqzEYJJi7GEyf7cSuPMWZm9mdr7535UBPpax2rY19zFXS5orxcDrhytUJPYxl/axNZWQ6PseN6vVav1wBQDXd5dVV+P++5c/SCcKcnGjJUkbHsFPWhfCy25zAAA8b65ucxBcTeEs1NZtDjlnwb3QQX6PukEjBPx/Me/7vurq67tL8/xtXf16+nseNmWEhz0V+n1bVyUY+zyKDXdd+J084ADMYwk8De/2WM4Zs+JhPI4vkwFYtjVCLtv6hP4WLYhICHaqESa8bvqZl2lUjX+bRQMAUA/cJm4c7gkMvRfY+zwCzA2/ecC5Q6+ob/tm0RCXG8cBvGhregqqCYGbRTMch+E4xHUgAE7Lt6kLAIbjIChcTLCEWXFhzgIe95V/mqacMRLce4wDUDU9ji+CLjCEWfxTt3uKgflhz12v5YR8aa2hjYGvpJ27TpPAjPY+jzf3z7zFk4Y0ZyGpIzw9A3hDCpnpfMcdYtYw9aGmC/iimKOQ8D5IPA4APn+4KTxlAj55N48206s13oq0F/1plnry2GaeeILRFJo8NPtoo211/c4577bzOM1xm+l5x8+W9jfVs1muovt5C3gdb/bOzAuLvj3NkJiR4HPwtNlCNiKwlzxB/Pb1hwi4Bp6oNa6XV03JW9F7oHn0FFzy2JraCVMXndJPVdNpt8e43D6P3stX0EVG6d1IArvtnD+T0+QbWzhkGset1PJezOVvopv755In8BlLOG38Jvr08/Ny7T5LfvdP2poSogaWfhd6v9vOYwES40Oz6L2WcwZ4veEFBqojAc7V89jEm/A7+H+BUMe5k0gf6239A8lPFBur9Z6xAAAAAElFTkSuQmCC"
+      id="logo"
+      style="height: auto; width: 20%;"
+    />
+    <script>
+      /* global webanimate */
+      const w = webanimate('#logo', 'jello', { duration: 1000, iterations: 2, direction: 'alternate', play: true, all: false })
+      console.log(w)
+    </script>
+  </body>
 </html>

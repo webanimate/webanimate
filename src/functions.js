@@ -6,7 +6,7 @@ let categories = {}
 let element, _options
 
 const load = (obj = animateweb) => {
-  Object.keys(obj).forEach(function (key) {
+  Object.keys(obj).forEach(function(key) {
     if (key !== 'categories') {
       animations[key] = obj[key]
     }
@@ -23,12 +23,12 @@ const getCategories = () => {
   return categories
 }
 
-const getOptions = (opts) => {
+const getOptions = opts => {
   if (!isObject(opts)) {
     opts = {}
   }
   if (isObject(_options)) {
-    Object.keys(_options).forEach(function (key) {
+    Object.keys(_options).forEach(function(key) {
       if (!['play', 'all'].includes(key)) {
         opts[key] = _options[key]
       }
@@ -49,6 +49,7 @@ const webanimate = (selectors, name, options) => {
       toAnimate = animations[name]
     }
   } else if (isArray(name)) {
+    return true
   } else if (isObject(name) && isArray(name.keyframes)) {
     toAnimate = name
   }
