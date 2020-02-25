@@ -56,7 +56,7 @@ const webanimate = (selectors, name, options) => {
   if (toAnimate) {
     const animation = element.animate(toAnimate.keyframes, getOptions(toAnimate.options))
     if (animation) {
-      if (!options.play) {
+      if (!options || (options && !options.play)) {
         animation.cancel()
       }
       return animation
