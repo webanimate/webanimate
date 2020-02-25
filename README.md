@@ -1,8 +1,12 @@
-# webanimate
+# Webanimate
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![](https://img.shields.io/npm/v/webanimate.svg)](https://www.npmjs.com/package/webanimate)
+[![](https://img.shields.io/bundlephobia/minzip/webanimate.svg)](https://bundlephobia.com/result?p=webanimate)
 
 Use Web Animations API easier.
+
+This is alpha. Please don't use it. Stable version coming very soon.
 
 ## Install
 
