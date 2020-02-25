@@ -23,7 +23,7 @@
     "lint:prettier": "prettier --check \"**/*.*\""
   },
   "dependencies": {
-    "animate.web": "file:../animate.web",
+    "animate.web": "^0.0.0-alpha.0",
     "underscore": "^1.9.2"
   },
   "devDependencies": {
