@@ -1,2 +1,2 @@
-import webanimate from './functions'
-export default webanimate
+import wa from './functions'
+export default wa
