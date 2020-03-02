@@ -1,5 +1,6 @@
 import animateweb from 'animate.web'
-import { isArray, isObject, isString } from 'underscore'
+import isObject from 'lodash.isobject'
+import isString from 'lodash.isstring'
 
 const animations = {}
 let categories = {}
@@ -48,9 +49,9 @@ const webanimate = (selectors, name, options) => {
     if (name in animations) {
       toAnimate = animations[name]
     }
-  } else if (isArray(name)) {
+  } else if (Array.isArray(name)) {
     return true
-  } else if (isObject(name) && isArray(name.keyframes)) {
+  } else if (isObject(name) && Array.isArray(name.keyframes)) {
     toAnimate = name
   }
   if (toAnimate) {

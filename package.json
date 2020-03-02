@@ -1,5 +1,5 @@
 {
-  "name": "webanimate",
+  "name": "@webanimate/webanimate",
   "version": "0.0.0-alpha.5",
   "description": "Use Web Animations API easier",
   "main": "src/index.js",
@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "animate.web": "^0.0.0-alpha.0",
-    "underscore": "^1.9.2"
+    "lodash.isobject": "^3.0.2",
+    "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
