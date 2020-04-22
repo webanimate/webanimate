@@ -94,10 +94,10 @@ ajv@^6.10.0, ajv@^6.10.2:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-animate.web@^0.0.0-alpha.0:
-  version "0.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/animate.web/-/animate.web-0.0.0-alpha.1.tgz#f64559a48e9d294019952f7621e4b62519b52f34"
-  integrity sha512-ClDHjkZ+wdTK9X26AGrTHK3z9bvPOEarSx/+SaURv6TBnANA5+WnJu8d93XSkedqhX7wAjtpZQ7XoenReu5+Vw==
+animate.web@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/animate.web/-/animate.web-0.0.4.tgz#fd0a8a9b798079bbbe65d78d4781e75e8dbf2f96"
+  integrity sha512-ys1VF5HJiS8BArRBuq/bknod//bNPwu40VU7tkcgCKG3DFvPq0EWBfSbRRPzLncjn57fMq/cUx0GBx6HA6U4CA==
 
 ansi-escapes@^4.2.1:
   version "4.3.1"
