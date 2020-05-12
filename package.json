@@ -23,7 +23,7 @@
     "lint:prettier": "prettier --check \"**/*.*\""
   },
   "dependencies": {
-    "animate.web": "^0.0.0-alpha.0",
+    "animate.web": "^0.0.5",
     "lodash.isobject": "^3.0.2",
     "lodash.isstring": "^4.0.1"
   },
