@@ -3,7 +3,7 @@
   "version": "0.0.0-alpha.5",
   "description": "Use Web Animations API easier",
   "main": "src/index.js",
-  "author": "Web Animate",
+  "author": "Web Animate <60752454+webanimate@users.noreply.github.com>",
   "license": "MIT",
   "private": false,
   "homepage": "https://github.com/webanimate/webanimate#readme",
@@ -14,29 +14,31 @@
   },
   "scripts": {
     "build": "rollup -c",
+    "c": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "watch": "rollup -cw",
     "fix": "yarn fix:eslint && yarn fix:prettier && yarn build",
     "fix:eslint": "eslint --fix \"**/*.*\"",
     "fix:prettier": "prettier --write \"**/*.*\"",
     "lint": "yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "eslint \"**/*.*\"",
-    "lint:prettier": "prettier --check \"**/*.*\""
+    "lint:prettier": "prettier --check \"**/*.*\"",
+    "up": "yarn upgrade-interactive && ncu -i && yarn"
   },
   "dependencies": {
-    "animate.web": "^0.0.0-alpha.0",
+    "animate.web": "^1.0.2",
     "lodash.isobject": "^3.0.2",
     "lodash.isstring": "^4.0.1"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^11.0.1",
-    "@rollup/plugin-node-resolve": "^7.0.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-json": "^2.0.1",
-    "prettier": "^1.19.1",
-    "rollup": "^1.29.0",
-    "rollup-plugin-terser": "^5.2.0"
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-json": "^2.1.2",
+    "prettier": "^2.1.2",
+    "rollup": "^2.29.0",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "eslintConfig": {
     "env": {
